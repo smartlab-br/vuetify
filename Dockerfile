@@ -6,4 +6,4 @@ COPY package.json /home/node
 
 WORKDIR /home/node
 
-RUN npm install -g 
+RUN cat requirements.txt | xargs npm install -g
