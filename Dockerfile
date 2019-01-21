@@ -2,7 +2,7 @@ FROM node:9.10.1-alpine
 
 RUN apk add --no-cache bash git openssh
 
-COPY package.json /home/node
+COPY requirements.txt /home/node
 
 WORKDIR /home/node
 
