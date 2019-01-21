@@ -1,4 +1,9 @@
 {
+    "name": "smartlab-vuetify",
+    "description": "Smartlab's vuetify base image",
+    "author": "MPT/SPAI",
+    "version": "0.0.1",
+    "private": true,
     "dependencies": {
       "@fortawesome/fontawesome": "1.1.8",
       "@fortawesome/fontawesome-free-brands": "5.0.13",
