@@ -9,5 +9,3 @@ COPY package.json /home/node/app
 WORKDIR /home/node/app
 
 RUN npm install
-
-RUN ls -la node_modules
