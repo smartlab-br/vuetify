@@ -2,10 +2,10 @@ FROM node:10.15.3-alpine
 
 RUN apk add --no-cache bash git openssh
 
-RUN mkdir /home/node/base
+RUN mkdir /home/node/app
 
-COPY package.json /home/node/base
+COPY package.json /home/node/app
 
-WORKDIR /home/node/base
+WORKDIR /home/node/app
 
 RUN npm install -G
